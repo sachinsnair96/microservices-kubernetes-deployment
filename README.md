@@ -2,7 +2,7 @@
 
 ## Objective
 
-The objective of this project is to deploy a microservices-based application using Kubernetes and Minikube. The deployment demonstrates Kubernetes concepts such as Deployments, Services, Inter-Service Communication, Ingress Configuration, and validation testing.
+The objective of this project is to deploy and validate a microservices-based application using Kubernetes and Minikube. The deployment demonstrates Kubernetes concepts such as Deployments, Services, Inter-Service Communication, Ingress Configuration, and validation testing.
 
 ---
 
@@ -33,13 +33,16 @@ The application contains four microservices:
 # Kubernetes Resources Implemented
 
 ## Deployments
+
 Created Kubernetes Deployment manifests for:
+
 - User Service
 - Product Service
 - Order Service
 - Gateway Service
 
 Each deployment includes:
+
 - Labels and selectors
 - Resource requests and limits
 - Environment variables
@@ -49,13 +52,16 @@ Each deployment includes:
 ---
 
 ## Services
+
 Created Kubernetes ClusterIP Services for:
+
 - User Service
 - Product Service
 - Order Service
 - Gateway Service
 
 The services enable:
+
 - Internal cluster communication
 - Kubernetes DNS-based service discovery
 - Pod-to-pod communication
@@ -63,6 +69,7 @@ The services enable:
 ---
 
 ## Ingress Configuration
+
 Implemented Kubernetes Ingress with path-based routing.
 
 | Path | Routed Service |
@@ -109,108 +116,3 @@ submission/
 │   ├── 14_ingress_test.png
 │   └── 15_final_service_test.png
 └── README.md
-
----
-
-# Screenshots
-
-## 1. Docker Running
-
-![Docker Running](./screenshots/01_docker_running.png)
-
----
-
-## 2. Minikube Cluster Startup
-
-![Minikube Start](./screenshots/02_minikube_start.png)
-
----
-
-## 3. Kubernetes Nodes Verification
-
-![Kubectl Nodes](./screenshots/03_kubectl_nodes.png)
-
----
-
-## 4. Pods Running in All Namespaces
-
-![Pods All Namespaces](./screenshots/04_pods_all_namespaces.png)
-
----
-
-## 5. Project Folder Structure
-
-![Project Structure](./screenshots/05_project_structure.png)
-
----
-
-## 6. User Service Deployment
-
-![User Service Pods](./screenshots/06_user_service_pods.png)
-
----
-
-## 7. Services Creation
-
-![Services List](./screenshots/07_services_list.png)
-
----
-
-## 8. Product Service Deployment
-
-![Product Service](./screenshots/08_product_service_pods.png)
-
----
-
-## 9. Order Service Deployment
-
-![Order Service](./screenshots/09_order_service_pods.png)
-
----
-
-## 10. Gateway Service Deployment
-
-![Gateway Service](./screenshots/10_gateway_service_pods.png)
-
----
-
-## 11. All Kubernetes Services
-
-![All Services](./screenshots/11_services_all.png)
-
----
-
-## 12. Inter-Service Communication
-
-![Service Communication](./screenshots/12_service_communication.png)
-
----
-
-## 13. Ingress Controller Verification
-
-![Ingress Controller](./screenshots/13_ingress_controller.png)
-
----
-
-## 14. Ingress Configuration Test
-
-![Ingress Test](./screenshots/14_ingress_test.png)
-
----
-
-## 15. Final Service Validation
-
-![Final Service Test](./screenshots/15_final_service_test.png)
-
----
-
-# Conclusion
-
-Successfully deployed and validated a Kubernetes-based microservices architecture using Minikube demonstrating:
-- Kubernetes Deployments
-- Kubernetes Services
-- Cluster Networking
-- Service Discovery
-- Inter-Service Communication
-- Ingress Configuration
-- External Service Validation
