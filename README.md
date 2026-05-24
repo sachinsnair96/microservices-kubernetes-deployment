@@ -78,3 +78,63 @@ Configured path-based ingress routing for all services.
 ## Nodes
 
 ![Nodes](./screenshots/03_kubectl_nodes.png)
+
+---
+
+## User Service Deployment
+
+![User Service](./screenshots/06_user_service_pods.png)
+
+---
+
+## Services Creation
+
+![Services](./screenshots/07_services_list.png)
+
+---
+
+## Product Service Deployment
+
+![Product Service](./screenshots/08_product_service_pods.png)
+
+---
+
+## Order Service Deployment
+
+![Order Service](./screenshots/09_order_service_pods.png)
+
+---
+
+## Gateway Service Deployment
+
+![Gateway Service](./screenshots/10_gateway_service_pods.png)
+
+---
+
+## All Kubernetes Services
+
+![All Services](./screenshots/11_services_all.png)
+
+---
+
+## Inter-Service Communication
+
+![Communication](./screenshots/12_service_communication.png)
+
+---
+
+## Ingress Controller Verification
+
+![Ingress Controller](./screenshots/13_ingress_controller.png)
+
+---
+
+## Ingress Configuration Test
+
+![Ingress Test](./screenshots/14_ingress_test.png)
+
+---
+
+## Final Service Validation
+
+![Final Validation](./screenshots/15_final_service_test.png)
